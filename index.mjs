@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import { program } from 'commander';
 import chalk from 'chalk';
-import figlet from 'figlet';
+import { translateText, translateSideBySide } from './translator.mjs'; // Import translator functions
 
 dotenv.config();
 
@@ -58,19 +58,23 @@ program
 program
     .command('translate <file> [style] [format]')
     .description('Translate a file')
-    .action((file, style = 'literary', format = 'txt') => {
+    .action(async (file, style = 'literary', format = 'txt') => {
         console.log(art);
-        // TODO: Translate the file
-        console.log(`Translating ${file} with style ${style} and outputting in ${format} format`);
+        // Call translateText function from translator.mjs
+        const translation = await translateText(file, style);
+        console.log(`Translation: ${translation}`);
+        console.log(`Outputting in ${format} format`);
     });
 
 program
     .command('side-by-side <file> [style] [format]')
     .description('Translate a file and create a side-by-side translation')
-    .action((file, style = 'literary', format = 'txt') => {
+    .action(async (file, style = 'literary', format = 'txt') => {
         console.log(art);
-        // TODO: Translate the file and create a side-by-side translation
-        console.log(`Translating ${file} side by side with style ${style} and outputting in ${format} format`);
+        // Call translateSideBySide function from translator.mjs
+        const translation = await translateSideBySide(file, style);
+        console.log(`Translation: ${translation}`);
+        console.log(`Outputting in ${format} format`);
     });
 
 
