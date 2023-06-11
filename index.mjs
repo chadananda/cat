@@ -1,19 +1,13 @@
-require('dotenv').config();
-const { program } = require('commander');
-const chalk = require('chalk');
-const figlet = require('figlet');
+import dotenv from 'dotenv';
+import { program } from 'commander';
+import chalk from 'chalk';
+import figlet from 'figlet';
 
-const art = `
-${chalk.yellow(figlet.textSync('CAT', { horizontalLayout: 'full' }))}
+dotenv.config();
 
- /\\_/\\
-( o.o )
- > ^ <
-
- ===
-
-${chalk.yellow(figlet.textSync('Computer Assisted Translation', { horizontalLayout: 'full' }))}
-`;
+const art = chalk.green.bold.italic(
+   figlet.textSync('CAT', { horizontalLayout: 'full', font: 'Fire Font-s' })
+);
 
 const helpMessage = `
 Welcome to CAT - Computer Assisted Translation!
@@ -35,6 +29,7 @@ program
     .command('set-key <key>')
     .description('Set the GPT API key')
     .action((key) => {
+        console.log(art);
         // TODO: Store the key
         console.log(`API key set: ${key}`);
     });
@@ -43,6 +38,7 @@ program
     .command('translate <file> [style]')
     .description('Translate a file')
     .action((file, style = 'literary') => {
+        console.log(art);
         // TODO: Translate the file
         console.log(`Translating ${file} with style ${style}`);
     });
@@ -51,6 +47,7 @@ program
     .command('side-by-side <file> [style]')
     .description('Translate a file and create a side-by-side translation')
     .action((file, style = 'literary') => {
+        console.log(art);
         // TODO: Translate the file and create a side-by-side translation
         console.log(`Translating ${file} side by side with style ${style}`);
     });
@@ -59,6 +56,7 @@ program
     .command('help')
     .description('Show help')
     .action(() => {
+        clear();
         console.log(art + helpMessage);
     });
 
