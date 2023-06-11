@@ -42,3 +42,17 @@ The codebase follows modern JavaScript best practices and is thoroughly document
 7. **Documentation:** The codebase will be thoroughly documented, with a detailed README file explaining how to use the application.
 
 This plan will be implemented over the course of several development sprints, with each sprint focusing on one or two of the above steps.
+
+
+## Proof of concept examples
+
+* Literary translation of Baha'u'llah's "Ode of the Dove"
+* Literary translation of the Báb's "Seven Proofs"
+* Literary translation of Mazindarani's "Zurru'l-Haqq, Volume 1"
+* Study side-by-side translation of Udo Schafer's Doctoral Thesis on Baha'i Constitutional Law
+* Study side-by-side translation of Baha'u'llah's Kitab-i-Aqdas
+* Study side-by-side translation of the Bab's Arabic Bayan
+* Study side-by-side translation of the Báb's "Qayyumu'l-Asma" output in German
+
+
+

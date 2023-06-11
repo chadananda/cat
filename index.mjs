@@ -1,48 +1,11 @@
 import dotenv from 'dotenv';
 import { program } from 'commander';
-import chalk from 'chalk';
 import { translateText, translateSideBySide } from './translator.mjs'; // Import translator functions
+import { formatTxt, formatMd, formatDocx, formatPdf } from './formatter.mjs'; // Import formatting functions
+import { art, helpMessage } from './help.mjs';
+import fs from 'fs';
 
 dotenv.config();
-
-const art = chalk.green.bold.italic(
-   //figlet.textSync('CAT', { horizontalLayout: 'full', font: 'Fire Font-s' })
-   `
-   ,o888888o.             .8.          8888888 8888888888
-   8888     \`88.          .888.               8 8888
-,8 8888       \`8.        :88888.              8 8888
-88 8888                 . \`88888.             8 8888
-88 8888                .8. \`88888.            8 8888
-88 8888               .8\`8. \`88888.           8 8888
-88 8888              .8' \`8. \`88888.          8 8888
-\`8 8888       .8'   .8'   \`8. \`88888.         8 8888
-   8888     ,88'   .888888888. \`88888.        8 8888
-    \`8888888P'    .8'       \`8. \`88888.       8 8888
-   `
-);
-
-const helpMessage = chalk.yellow(`
-Welcome to CAT - ${chalk.bold('Computer Assisted Translation')}! 🐱‍💻
-
-Usage:
-  $ ${chalk.green('cat set-key <key>')}                                   🔑  Set the GPT API key
-  $ ${chalk.cyan('cat translate <file> [style] [format]')}               📝  Translate a file
-  $ ${chalk.magenta('cat side-by-side <file> [style] [format]')}            📖  Translate a file and create a side-by-side translation
-
-Styles:
-  ${chalk.blue('literary')} (default) - Easily readable translation
-  ${chalk.blue('literal')} - Conforms closely to original word order
-  ${chalk.blue('technical')} - Literal style with terms and names injected from the original
-
-Format:
-  ${chalk.red('txt')} (default) - Plain text file
-  ${chalk.red('md')} - Markdown file
-  ${chalk.red('docx')} - Word Document
-  ${chalk.red('pdf')} - PDF Document
-`);
-
-
-
 
 program
     .version('0.1.0') // You can set your application version here
@@ -56,33 +19,67 @@ program
     });
 
 program
-    .command('translate <file> [style] [format]')
+    .command('translate <file> [style] [format] [outputLang]')
     .description('Translate a file')
-    .action(async (file, style = 'literary', format = 'txt') => {
+    .action(async (file, style = 'literary', format = 'txt', outputLang = 'en') => {
         console.log(art);
         // Call translateText function from translator.mjs
-        const translation = await translateText(file, style);
-        console.log(`Translation: ${translation}`);
-        console.log(`Outputting in ${format} format`);
+        const translation = await translateText(file, style, outputLang);
+        let outputData;
+        switch(format) {
+            case 'txt':
+                outputData = formatTxt(translation);
+                break;
+            case 'md':
+                outputData = formatMd(translation);
+                break;
+            case 'docx':
+                outputData = await formatDocx(translation);
+                break;
+            case 'pdf':
+                outputData = await formatPdf(translation);
+                break;
+            default:
+                console.log(`Unsupported format: ${format}`);
+                return;
+        }
+        fs.writeFileSync(`./output.${format}`, outputData);
+        console.log(`Translation saved to ./output.${format}`);
     });
 
 program
-    .command('side-by-side <file> [style] [format]')
+    .command('side-by-side <file> [style] [format] [outputLang]')
     .description('Translate a file and create a side-by-side translation')
-    .action(async (file, style = 'literary', format = 'txt') => {
+    .action(async (file, style = 'literary', format = 'txt', outputLang = 'en') => {
         console.log(art);
         // Call translateSideBySide function from translator.mjs
-        const translation = await translateSideBySide(file, style);
-        console.log(`Translation: ${translation}`);
-        console.log(`Outputting in ${format} format`);
+        const translation = await translateSideBySide(file, style, outputLang);
+        let outputData;
+        switch(format) {
+            case 'txt':
+                outputData = formatTxt(translation);
+                break;
+            case 'md':
+                outputData = formatMd(translation);
+                break;
+            case 'docx':
+                outputData = await formatDocx(translation);
+                break;
+            case 'pdf':
+                outputData = await formatPdf(translation);
+                break;
+            default:
+                console.log(`Unsupported format: ${format}`);
+                return;
+        }
+        fs.writeFileSync(`./output.${format}`, outputData);
+        console.log(`Translation saved to ./output.${format}`);
     });
-
 
 program
     .command('help')
     .description('Show help')
     .action(() => {
-        clear();
         console.log(art + helpMessage);
     });
 
