@@ -6,22 +6,43 @@ import figlet from 'figlet';
 dotenv.config();
 
 const art = chalk.green.bold.italic(
-   figlet.textSync('CAT', { horizontalLayout: 'full', font: 'Fire Font-s' })
+   //figlet.textSync('CAT', { horizontalLayout: 'full', font: 'Fire Font-s' })
+   `
+   ,o888888o.             .8.          8888888 8888888888
+   8888     \`88.          .888.               8 8888
+,8 8888       \`8.        :88888.              8 8888
+88 8888                 . \`88888.             8 8888
+88 8888                .8. \`88888.            8 8888
+88 8888               .8\`8. \`88888.           8 8888
+88 8888              .8' \`8. \`88888.          8 8888
+\`8 8888       .8'   .8'   \`8. \`88888.         8 8888
+   8888     ,88'   .888888888. \`88888.        8 8888
+    \`8888888P'    .8'       \`8. \`88888.       8 8888
+   `
 );
 
-const helpMessage = `
-Welcome to CAT - Computer Assisted Translation!
+const helpMessage = chalk.yellow(`
+Welcome to CAT - ${chalk.bold('Computer Assisted Translation')}! 🐱‍💻
 
 Usage:
-  $ cat set-key <key>                  Set the GPT API key
-  $ cat translate <file> [style]       Translate a file
-  $ cat side-by-side <file> [style]    Translate a file and create a side-by-side translation
+  $ ${chalk.green('cat set-key <key>')}                                   🔑  Set the GPT API key
+  $ ${chalk.cyan('cat translate <file> [style] [format]')}               📝  Translate a file
+  $ ${chalk.magenta('cat side-by-side <file> [style] [format]')}            📖  Translate a file and create a side-by-side translation
 
 Styles:
-  literary (default)
-  literal
-  technical
-`;
+  ${chalk.blue('literary')} (default) - Easily readable translation
+  ${chalk.blue('literal')} - Conforms closely to original word order
+  ${chalk.blue('technical')} - Literal style with terms and names injected from the original
+
+Format:
+  ${chalk.red('txt')} (default) - Plain text file
+  ${chalk.red('md')} - Markdown file
+  ${chalk.red('docx')} - Word Document
+  ${chalk.red('pdf')} - PDF Document
+`);
+
+
+
 
 program
     .version('0.1.0') // You can set your application version here
@@ -35,22 +56,23 @@ program
     });
 
 program
-    .command('translate <file> [style]')
+    .command('translate <file> [style] [format]')
     .description('Translate a file')
-    .action((file, style = 'literary') => {
+    .action((file, style = 'literary', format = 'txt') => {
         console.log(art);
         // TODO: Translate the file
-        console.log(`Translating ${file} with style ${style}`);
+        console.log(`Translating ${file} with style ${style} and outputting in ${format} format`);
     });
 
 program
-    .command('side-by-side <file> [style]')
+    .command('side-by-side <file> [style] [format]')
     .description('Translate a file and create a side-by-side translation')
-    .action((file, style = 'literary') => {
+    .action((file, style = 'literary', format = 'txt') => {
         console.log(art);
         // TODO: Translate the file and create a side-by-side translation
-        console.log(`Translating ${file} side by side with style ${style}`);
+        console.log(`Translating ${file} side by side with style ${style} and outputting in ${format} format`);
     });
+
 
 program
     .command('help')
