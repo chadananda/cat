@@ -1,12 +1,18 @@
 // segmentor.mjs
 
+import callAPI from './api.mjs';
+
+// Define your BLOCK_SIZE
+const BLOCK_SIZE = 2048; // Adjust this value as per your requirement.
+const PARAGRAPHS_ABOVE = 3; // The number of preceding paragraphs to send for context.
+
 /**
  * Segments a document into paragraphs.
  *
  * @param {String} document - The document text to segment.
  * @returns {Array} The segmented paragraphs.
  */
-async function segmentDocument(document) {
+export async function segmentDocument(document) {
  let paragraphs = [];
  let resumePosition = 0;
 
@@ -14,14 +20,17 @@ async function segmentDocument(document) {
      // Take the next block of text from the document
      const block = document.substring(resumePosition, resumePosition + BLOCK_SIZE);
 
-     // Send the block to the AI for segmentation
-     const response = await sendToAI(block);
+     // Get the preceding paragraphs for context
+     const paragraphsAbove = paragraphs.slice(-PARAGRAPHS_ABOVE).join('\n\n');
+
+     // Send the block and the preceding paragraphs to the AI for segmentation
+     const response = await callAPI("segmentation", {document: block, paragraphs_above: paragraphsAbove});
 
      // Extract the paragraphs and the new resume position from the AI's response
      const { paragraphObjects, newResumePosition } = extractParagraphBreaks(response, block);
 
      // Add the paragraphs to the list
-     paragraphs = paragraphs.concat(paragraphObjects.map(obj => obj.paragraphText));
+     paragraphs = paragraphs.concat(paragraphObjects.map(obj => obj.corrected));
 
      // Update the resume position
      if (newResumePosition > 0) {
@@ -40,32 +49,20 @@ async function segmentDocument(document) {
 }
 
 /**
- * Extracts the paragraphs and the new resume position from the AI's response.
+ * Extracts paragraph breaks and new resume position from the AI's response.
  *
- * @param {Array} response - The AI's response.
- * @param {String} block - The block of text that was sent to the AI.
- * @returns {Object} The paragraphs and the new resume position.
+ * @param {Object} response - The AI's response.
+ * @param {String} block - The block of text sent to the AI.
+ * @returns {Object} An object containing the new resume position and the paragraph objects.
  */
 function extractParagraphBreaks(response, block) {
- let paragraphObjects = [];
  let newResumePosition = 0;
 
- // Iterate over the response array
- for (let i = 0; i < response.length; i++) {
-     const paragraphObject = response[i];
-
-     // Find the start position of the paragraph in the block
-     const startPos = block.indexOf(paragraphObject.startText);
-
-     // If the start position was found, calculate the end position
-     if (startPos !== -1) {
-         const endPos = startPos + paragraphObject.startText.length;
-         newResumePosition = endPos;
-
-         // Add the paragraph object to the list
-         paragraphObjects.push(paragraphObject);
-     }
+ // Determine the new resume position by finding the end of the last complete paragraph in the block
+ if (response.length > 0) {
+     const lastParagraph = response[response.length - 1].original;
+     newResumePosition = block.indexOf(lastParagraph) + lastParagraph.length;
  }
 
- return { paragraphObjects, newResumePosition };
+ return { paragraphObjects: response, newResumePosition };
 }

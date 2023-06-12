@@ -33,16 +33,11 @@
  * Different styles are defined in translationStyles.mjs and can be updated or extended as needed.
  */
 
-import axios from 'axios'; // For making HTTP requests to GPT API
 import { convertFileToText } from './fileConverter.mjs';
-import { segmentText } from './textSegmenter.mjs';
+import { segmentDocument } from './segmentor.mjs';
 import { translateParagraphs } from './paragraphTranslator.mjs';
-
-// GPT API URL
-const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
-
-// GPT API key from .env file
-const GPT_API_KEY = process.env.GPT_API_KEY;
+import { prompts } from './prompts.mjs';
+import { callAPI } from './callAPI.mjs';
 
 /**
  * Function to translate text

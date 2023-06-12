@@ -1,30 +1,42 @@
 // api.mjs
 
-import { PROMPTS } from './prompts.js';
-import openai from 'openai';  // Make sure to import your OpenAI API library
+import { Configuration, OpenAIApi } from 'openai';
+import { config } from 'dotenv';
+import { PROMPTS } from './prompts.mjs';
 
-// Your OpenAI API Key
-openai.apiKey = 'your-api-key';
+// Load .env content
+config();
+
+// Set the OpenAI API Key
+const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY });
+const openai = new OpenAIApi(configuration);
 
 async function callAPI(promptKey, params) {
+ params = Object.values(params)
  const prompt = PROMPTS[promptKey];
  if (!prompt) {
    throw new Error(`Invalid prompt key: ${promptKey}`);
  }
 
- const filledPrompt = prompt.text.replace('{{document}}', params.document).replace('{{text_above}}', params.text_above || '');
+ const promptMessage = prompt.text.replace('{{data}}', params[0]).replace('{{context}}', params[1] || '');
+ const content = promptMessage;
+ const messages = [{role:'user', content}];
+ // const model ='gpt-3.5-turbo';
+ const model ='gpt-4';
 
- const response = await openai.Completion.create({
-   engine: 'text-davinci-002',
-   prompt: filledPrompt,
-   temperature: 0.5,
-   max_tokens: 1000
- });
+ const response = await openai.createChatCompletion({ model, messages });
+ let result = response.data.choices[0].message.content
+ let usage = response.data["usage"]["total_tokens"]
 
- // Try to parse the response as JSON
- let result;
+ // Log the raw prompt
+ console.log('Raw prompt:', content);
+ console.log('=======================')
+ console.log('Result:', result);
+ console.log('=======================')
+
  try {
-   result = JSON.parse(response.choices[0].text.trim());
+   result = JSON.parse(result);
+   console.log('Parsed result:', result, 'Usage:', usage);
  } catch {
    throw new Error('Response is not in JSON format');
  }
@@ -38,5 +50,5 @@ async function callAPI(promptKey, params) {
  return result;
 }
 
-
 export default callAPI;
+
