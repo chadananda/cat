@@ -17,7 +17,7 @@ CAT is a powerful command-line tool for translating and processing book-length d
 1. Install CAT with `npm install -g cat-cli`.
 2. Set your API key with `cat set-key YOUR_API_KEY`.
 3. Translate a file with `cat translate --file yourfile.txt --style literary`.
-4. Create a side-by-side translation with `cat translate --file yourfile.txt --side-by-side`.
+4. Create a side-by-side translation with `cat side-by-side --file yourfile.txt --style literary`.
 5. Segment a document with `cat segment --file yourfile.txt`.
 
 For more information on the available commands and options, run `cat --help`.
@@ -45,6 +45,7 @@ The codebase follows modern JavaScript best practices and is thoroughly document
 
 This plan will be implemented over the course of several development sprints, with each sprint focusing on one or two of the above steps.
 
+
 ## Proof of concept examples
 
 * Literary translation of Bahá'u'lláh's "Qasídiy-i-Varqá'íyyih"
@@ -54,3 +55,5 @@ This plan will be implemented over the course of several development sprints, wi
 * Study side-by-side translation of Bahá'u'lláh's Kitáb-i-Aqdas
 * Study side-by-side translation of the Báb's Arabic Bayán
 * Study side-by-side translation of the Báb's "Qayyúmu'l-Asmá'" output in German
+
+

@@ -1,9 +1,12 @@
+// index.mjs
+
 import dotenv from 'dotenv';
 import { program } from 'commander';
 import { translateText, translateSideBySide } from './translator.mjs'; // Import translator functions
 import { formatTxt, formatMd, formatDocx, formatPdf } from './formatter.mjs'; // Import formatting functions
 import { art, helpMessage } from './help.mjs';
 import fs from 'fs';
+import { segmentDocument } from './segmentor.mjs';
 
 dotenv.config();
 
@@ -81,6 +84,20 @@ program
     .description('Show help')
     .action(() => {
         console.log(art + helpMessage);
+    });
+
+program
+    .command('segment <file>')
+    .description('Segment a document into paragraphs')
+    .action(async (file) => {
+        console.log(art);
+        // Read the content of the file
+        const content = fs.readFileSync(file, 'utf8');
+        // Call segmentDocument function from segmentor.mjs
+        const segments = await segmentDocument(content);
+        // Write the segmented document to a new file
+        fs.writeFileSync(`./segmented_output.txt`, segments.join('\n\n'));
+        console.log(`Segmented document saved to ./segmented_output.txt`);
     });
 
 program

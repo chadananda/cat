@@ -1,3 +1,5 @@
+// help.mjs
+
 import chalk from 'chalk';
 
 const art = chalk.green.bold.italic(`
@@ -20,6 +22,7 @@ Usage:
   $ ${chalk.green('cat set-key <key>')}                                   🔑  Set the GPT API key
   $ ${chalk.cyan('cat translate <file> [style] [format] [outputLang]')}   📝  Translate a file
   $ ${chalk.magenta('cat side-by-side <file> [style] [format] [outputLang]')} 📖  Translate a file and create a side-by-side translation
+  $ ${chalk.blue('cat segment <file>')}                                   📂  Segment a document into paragraphs
 
 Styles:
   ${chalk.blue('literary')} (default) - Easily readable translation
