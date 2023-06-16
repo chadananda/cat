@@ -1,50 +1,30 @@
-# CAT - Computer Assisted Translation
+# CTAI - Commitee Translation AI
 
-CAT is a powerful command-line tool for translating and processing book-length documents. It leverages the power of GPT-based language models to provide high-quality translations and document segmentation. With CAT, you can create both straight translations, side-by-side translations, and segment your documents into meaningful paragraphs.
+CTAI is a powerful AI for translating and processing book-length documents into quality classical English. It leverages the power of large language models with __decision tree logic__ to provide high-quality translations and document segmentation. Instead of older decision logic such as chain-of-reasoning, CTAI actually forms a committe of diverse translation agents and each translator argues his (or her) logical reasoning for a translation decision. The group continues to debate until they eventually reach a concensus. At which point, they provide the final translation as well as a commentary block summarizing the reasoning behind difficult translation decisions.
+
+The CTAI "committee" can provide translations with or without commentary, with or without original text (side-by-side) and as either a literary or technical translation style.
+
+Since many old Arabic and Farsi manuscripts had neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into symantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
 
 ## Features
 
-- **Straight Translation:** CAT can translate your entire document into a target language.
-- **Side-by-Side Translation:** CAT can create a document with the original text and the translation side by side.
-- **Segmentation:** CAT can segment a long string of text into meaningful paragraphs.
-- **Translation Styles:** CAT supports multiple translation styles to suit your needs.
+- **Straight Translation:** CTAI can translate your entire document into a target language.
+- **Side-by-Side Translation:** CTAI can create a document with the original text and the translation side by side.
+- **Segmentation:** CTAI can segment a long document of into meaningful paragraphs.
+- **Translation Styles:** CTAI supports multiple translation styles to suit your needs.
   - **Literary:** This style is easily readable and is the default style for translations.
-  - **Literal:** This style conforms closely to the original word order, useful for language learners.
-  - **Technical:** This literal style includes terms and names from the original language, useful for technical translations.
+  - **Literal:** This style conforms closely to the original word order, useful for study.
+  - **Technical:** This literal style embedds original terms and names, useful for technical study.
 
 ## Usage
 
-1. Install CAT with `npm install -g cat-cli`.
-2. Set your API key with `cat set-key YOUR_API_KEY`.
-3. Translate a file with `cat translate --file yourfile.txt --style literary`.
-4. Create a side-by-side translation with `cat side-by-side --file yourfile.txt --style literary`.
-5. Segment a document with `cat segment --file yourfile.txt`.
+1. Install CTAI with `npm install -g ctai`.
+2. Set your API key with `ctai set-key YOUR_API_KEY`.
+3. Translate a file with `ctai translate --file yourfile.txt --style literary`.
+4. Create a side-by-side translation with `CTAI side-by-side --file yourfile.txt --style literary`.
+5. Segment a document into meaningful paragraphs with `ctai segment --file yourfile.txt`.
 
-For more information on the available commands and options, run `cat --help`.
-
-## Technology Stack and Coding Style
-
-CAT is built with modern JavaScript and uses a number of libraries to provide its functionality:
-
-- **Axios:** For making HTTP requests to the translation API.
-- **Commander:** For creating the command-line interface.
-- **Chalk and Figlet:** For adding color and ASCII art to the command-line output.
-- **Dotenv:** For managing environment variables.
-- **OpenAI:** For leveraging the power of GPT-based language models.
-
-The codebase follows modern JavaScript best practices and is thoroughly documented with comments and JSDoc explanations.
-
-## Implementation Plan
-
-1. **Project Setup and Initialization:** The project will be set up as an npm module, with all necessary dependencies installed. A `.env` file will be created to store the GPT API key.
-2. **Command-Line Interface:** The CLI will be created using `commander`, with commands for setting the API key, translating files, segmenting documents, and setting the translation style. The output will be styled with `chalk` and `figlet`.
-3. **GPT API Connection:** The application will connect to the GPT API using `axios`. The user's text will be sent to the API and the translated text or segmented text will be returned.
-4. **Error Handling and Validation:** The application will include thorough error handling and input validation to ensure that the user's input is valid and that the API key is set.
-5. **Testing:** The application will include a suite of unit tests to ensure that all components are working correctly.
-6. **Documentation:** The codebase will be thoroughly documented, with a detailed README file explaining how to use the application.
-
-This plan will be implemented over the course of several development sprints, with each sprint focusing on one or two of the above steps.
-
+For more information on the available commands and options, run `ctai --help`.
 
 ## Proof of concept examples
 
@@ -55,5 +35,4 @@ This plan will be implemented over the course of several development sprints, wi
 * Study side-by-side translation of Bahá'u'lláh's Kitáb-i-Aqdas
 * Study side-by-side translation of the Báb's Arabic Bayán
 * Study side-by-side translation of the Báb's "Qayyúmu'l-Asmá'" output in German
-
 

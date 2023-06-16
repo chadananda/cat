@@ -21,10 +21,12 @@ async function callAPI(promptKey, params) {
  const promptMessage = prompt.text.replace('{{data}}', params[0]).replace('{{context}}', params[1] || '');
  const content = promptMessage;
  const messages = [{role:'user', content}];
- // const model ='gpt-3.5-turbo';
- const model ='gpt-4';
-
- const response = await openai.createChatCompletion({ model, messages });
+ const model = prompt.model || 'gpt-3.5-turbo';
+ const function_call = 'auto';
+ const functions = prompt.response_signature;
+ const response = await openai.createChatCompletion({
+  model, messages, functions, function_call
+});
  let result = response.data.choices[0].message.content
  let usage = response.data["usage"]["total_tokens"]
 

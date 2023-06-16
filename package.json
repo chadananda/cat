@@ -1,7 +1,7 @@
 {
-  "name": "cat",
+  "name": "ctai",
   "version": "1.0.0",
-  "description": "",
+  "description": "Committee Translation AI",
   "main": "index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"

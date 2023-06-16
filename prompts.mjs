@@ -45,8 +45,36 @@ export const PROMPTS = {
       END OF SEGMENTATION TEXT
     `,
     // Parameters for this prompt:
-    params: { document: '', paragraphs_above: '' },
+    params: { document: '', context: '' },
+    model: 'gpt-3.5-turbo-16k',
     // Expected return type: array of strings (each string is a separate paragraph)
+    response_signature: {
+      "name": "get_data",
+      "description": "Add an array of paragraphs, each with original and corrected fields",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "paragraphs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "string",
+                  "description": "The original text"
+                },
+                "corrected": {
+                  "type": "string",
+                  "description": "The corrected text"
+                }
+              },
+              "required": ["original", "corrected"]
+            }
+          }
+        },
+        "required": ["paragraphs"]
+      }
+    },
     expectedFormat: 'array',
     validator: function(response) {
      return Array.isArray(response) && response.every(item => {
