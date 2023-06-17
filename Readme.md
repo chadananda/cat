@@ -1,14 +1,16 @@
+<div align="center">
 
-# CTAI - Commitee Translation AI
+# 📘 CTAI - Commitee Translation AI 📘
 
-CTAI is a powerful AI for translating and processing book-length documents into quality classical English. It leverages the power of large language models with __decision tree logic__ to provide high-quality translations and document segmentation. Instead of older decision logic such as chain-of-reasoning, CTAI actually forms a committe of diverse translation agents and each translator argues his (or her) logical reasoning for a translation decision. The group continues to debate until they eventually reach a concensus. At which point, they provide the final translation as well as a commentary block summarizing the reasoning behind difficult translation decisions.
+</div>
+
+CTAI is a powerful AI for translating and processing book-length documents into quality classical English. It leverages the power of large language models with __decision tree logic__ 🌳 to provide high-quality translations and document segmentation. Instead of older decision logic such as chain-of-reasoning, CTAI actually forms a committe of diverse translation agents and each translator argues his (or her) logical reasoning for a translation decision. The group continues to debate until they eventually reach a concensus. At which point, they provide the final translation as well as a commentary block summarizing the reasoning behind difficult translation decisions.
 
 The CTAI "committee" can provide translations with or without commentary, with or without original text (side-by-side) and as either a literary or technical translation style.
 
 Since many old Arabic and Farsi manuscripts had neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into symantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
 
-
-## Meet our Committee
+## 🎓 Meet our Committee
 
 __Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee.
 
@@ -20,61 +22,67 @@ __Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar I
 
 __Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will ensure the translated works resonate with English-speaking audiences.
 
-
 **Together, these five experts create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
 
+## 📚 Our Committee's Translation Process
 
-
-## Our Committee's Translation Process
-
-#### 1. Initial Translation:
+<details open>
+<summary><strong>1. Initial Translation:</strong></summary>
 
 Each member of the committee independently translates a given paragraph from the original Arabic or Persian text. They are encouraged to leverage their individual areas of expertise while keeping in mind the style of Shoghi Effendi.
+</details>
 
-#### 2. Group Discussion:
+<details>
+<summary><strong>2. Group Discussion:</strong></summary>
 
 The committee convenes to discuss each proposed translation. They critique and compare each version considering various factors:
 
 * Style: How well does the translation capture the literary style of Shoghi Effendi?
 * Historical context: Does the translation accurately reflect the historical and cultural nuances of the original text?
 * Literary Allusions: Are references to other works of literature correctly interpreted and translated?
-* Theological Terminology: Is the terminology accurate and consistent with Baha'i theology and Shoghi Effendi's translations?
+* Theological Terminology: Is the terminology accurate and consistent with Baha'i theology and```markdown
+Shoghi Effendi's translations?
 * Translation Precedent: Does the translation adhere to established translation standards and precedents set by Shoghi Effendi?
 * Parallel English Metaphors and Figures of Speech: Does the translation effectively use English language metaphors and figures of speech to convey the meaning of the original text?
+</details>
 
-#### 3. Re-Translation:
+<details>
+<summary><strong>3. Re-Translation:</strong></summary>
 
 Based on the group discussion, each member re-translates the paragraph, taking into account the feedback and insights gained during the discussion.
+</details>
 
-#### 4. Cross Comparison:
+<details>
+<summary><strong>4. Cross Comparison:</strong></summary>
 
 The committee meets again to cross compare their re-translations. They discuss the strengths and weaknesses of each version, drawing on the best elements of each to inform their final translation.
+</details>
 
-#### 5. Collaborative Final Translation:
+<details>
+<summary><strong>5. Collaborative Final Translation:</strong></summary>
 
 The committee works together to produce a final translation of the paragraph. This final version incorporates the best efforts and arguments of the group, ensuring that it is an accurate, stylistically appropriate, and resonant translation of the original text.
+</details>
 
-#### 6. Technical Summary:
+<details>
+<summary><strong>6. Technical Summary:</strong></summary>
 
 Finally, the committee writes up a brief technical summary detailing the challenges faced during the translation process and how they were overcome. This document serves as a record of their translation process and can be used to inform future translation efforts.
-
+</details>
 
 **This multi-step process ensures that the final translation is the result of a collaborative, thorough, and rigorous process, leveraging the diverse skills and expertise of the committee members. It also allows for continuous learning and improvement, as each step provides opportunities for feedback and refinement.**
 
+## 🎯 Features
 
+- **Straight Translation:** 📝 CTAI can translate your entire document into a target language.
+- **Side-by-Side Translation:** 📖 CTAI can create a document with the original text and the translation side by side.
+- **Segmentation:** 📄 CTAI can segment a long document of into meaningful paragraphs.
+- **Translation Styles:** 📜 CTAI supports multiple translation styles to suit your needs.
+  - **Literary:** 🖋️ This style is easily readable and is the default style for translations.
+  - **Literal:** 📚 This style conforms closely to the original word order, useful for study.
+  - **Technical:** 🔬 This literal style embedds original terms and names, useful for technical study.
 
-
-## Features
-
-- **Straight Translation:** CTAI can translate your entire document into a target language.
-- **Side-by-Side Translation:** CTAI can create a document with the original text and the translation side by side.
-- **Segmentation:** CTAI can segment a long document of into meaningful paragraphs.
-- **Translation Styles:** CTAI supports multiple translation styles to suit your needs.
-  - **Literary:** This style is easily readable and is the default style for translations.
-  - **Literal:** This style conforms closely to the original word order, useful for study.
-  - **Technical:** This literal style embedds original terms and names, useful for technical study.
-
-## Usage
+## 🚀 Usage
 
 1. Install CTAI with `npm install -g ctai`.
 2. Set your API key with `ctai set-key YOUR_API_KEY`.
@@ -84,7 +92,7 @@ Finally, the committee writes up a brief technical summary detailing the challen
 
 For more information on the available commands and options, run `ctai --help`.
 
-## Proof of concept examples
+## 📃 Proof of concept examples
 
 * Literary translation of Bahá'u'lláh's "Qasídiy-i-Varqá'íyyih"
 * Literary translation of the Báb's "Dalá'il-i-Sab'ih"
