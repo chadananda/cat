@@ -1,22 +1,24 @@
 <div align="center">
 
-# 📘 CTAI - Commitee Translation AI 📘
+# 📘 CTAI - Committee Translation AI 📘
 
 </div>
 
-CTAI is a powerful AI for translating and processing book-length documents into quality classical English. It leverages the power of large language models with __decision tree logic__ 🌳 to provide high-quality translations and document segmentation. Instead of older decision logic such as chain-of-reasoning, CTAI actually forms a committe of diverse translation agents and each translator argues his (or her) logical reasoning for a translation decision. The group continues to debate until they eventually reach a concensus. At which point, they provide the final translation as well as a commentary block summarizing the reasoning behind difficult translation decisions.
+CTAI is a powerful AI "committee" for translating and processing book-length documents into quality classical English. It leverages the power of __decision tree logic__ 🌳 to provide high-quality translations instead of older decision logic such as __chain-of-reasoning.__
+
+CTAI is actually composed of a multi-disciplinary committee consisting of five specific translation agents. Each agent is a capable translator from a completely different background. Each argues his (or her) logical reasoning for each translation decision. The group engages each other in debate until they eventually reach a collective translation consensus. They provide this final translation together with a technical summary explaining the challenges and reasoning behind difficult translation decisions.
 
 The CTAI "committee" can provide translations with or without commentary, with or without original text (side-by-side) and as either a literary or technical translation style.
 
-Since many old Arabic and Farsi manuscripts had neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into symantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
+Since many old Arabic and Farsi manuscripts had neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into semantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
 
 ## 🎓 Meet our Committee
 
 __Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation focused on translation challenges of Ali ibn Abi Talib's "Nahj al-Balagha".
 
-__Professor Reza Farid__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts, espcially Sufi terminology and poetic citations and allusions to Attar, Hafez and Rumi, will be crucial in maintaining the original spirit of the works. Prof. Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitab-i-Iqan.
+__Professor Reza Farid__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts, especially Sufi terminology and poetic citations and allusions to Attar, Hafez and Rumi, will be crucial in maintaining the original spirit of the works. Prof. Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitab-i-Iqan.
 
-__Dr. Ahmed Bakri__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Arabic and specifically Qur'anic grammar. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Mediations by Baha'u'llah" (Munajat)
+__Dr. Ahmed Bakri__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Arabic and specifically Qur'anic grammar. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Meditations by Baha'u'llah" (Munajat)
 
 __Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical allusions in the works of the Báb, and Baha'u'llah enhancing the depth and accuracy of translations.
 
