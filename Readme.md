@@ -12,15 +12,15 @@ Since many old Arabic and Farsi manuscripts had neither punctuation nor paragrap
 
 ## 🎓 Meet our Committee
 
-__Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee.
+__Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation focused on the translation challenges of Ali ibn Abi Talib's "Nahj al-Balagha".
 
 __Professor Reza Farid__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts will be crucial in maintaining the original spirit of the works.
 
-__Dr. Ahmed Bakri__ - A respected scholar in Arabic literature and Islamic studies, with a specific focus on Qur'anic studies and Sufi literature. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team.
+__Dr. Ahmed Bakri__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Qur'anic studies and Sufi terminology. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team.
 
-__Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable historical context to the works of the Báb, enhancing the depth and accuracy of the translations.
+__Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical references in the works of the Báb, enhancing the depth and accuracy of the translations.
 
-__Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will ensure the translated works resonate with English-speaking audiences.
+__Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences.
 
 **Together, these five experts create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
 
@@ -32,7 +32,7 @@ __Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with
 Each member of the committee independently translates a given paragraph from the original Arabic or Persian text. They are encouraged to leverage their individual areas of expertise while keeping in mind the style of Shoghi Effendi.
 </details>
 
-<details>
+<details open>
 <summary><strong>2. Group Discussion:</strong></summary>
 
 The committee convenes to discuss each proposed translation. They critique and compare each version considering various factors:
@@ -40,31 +40,30 @@ The committee convenes to discuss each proposed translation. They critique and c
 * Style: How well does the translation capture the literary style of Shoghi Effendi?
 * Historical context: Does the translation accurately reflect the historical and cultural nuances of the original text?
 * Literary Allusions: Are references to other works of literature correctly interpreted and translated?
-* Theological Terminology: Is the terminology accurate and consistent with Baha'i theology and```markdown
-Shoghi Effendi's translations?
+* Theological Terminology: Is the terminology accurate and consistent with Baha'i theology and Shoghi Effendi's translations?
 * Translation Precedent: Does the translation adhere to established translation standards and precedents set by Shoghi Effendi?
 * Parallel English Metaphors and Figures of Speech: Does the translation effectively use English language metaphors and figures of speech to convey the meaning of the original text?
 </details>
 
-<details>
+<details open>
 <summary><strong>3. Re-Translation:</strong></summary>
 
 Based on the group discussion, each member re-translates the paragraph, taking into account the feedback and insights gained during the discussion.
 </details>
 
-<details>
+<details open>
 <summary><strong>4. Cross Comparison:</strong></summary>
 
 The committee meets again to cross compare their re-translations. They discuss the strengths and weaknesses of each version, drawing on the best elements of each to inform their final translation.
 </details>
 
-<details>
+<details open>
 <summary><strong>5. Collaborative Final Translation:</strong></summary>
 
 The committee works together to produce a final translation of the paragraph. This final version incorporates the best efforts and arguments of the group, ensuring that it is an accurate, stylistically appropriate, and resonant translation of the original text.
 </details>
 
-<details>
+<details open>
 <summary><strong>6. Technical Summary:</strong></summary>
 
 Finally, the committee writes up a brief technical summary detailing the challenges faced during the translation process and how they were overcome. This document serves as a record of their translation process and can be used to inform future translation efforts.
