@@ -12,15 +12,15 @@ Since many old Arabic and Farsi manuscripts had neither punctuation nor paragrap
 
 ## 🎓 Meet our Committee
 
-__Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation focused on the translation challenges of Ali ibn Abi Talib's "Nahj al-Balagha".
+__Dr. Penelope Hamilton__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation focused on translation challenges of Ali ibn Abi Talib's "Nahj al-Balagha".
 
-__Professor Reza Farid__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts will be crucial in maintaining the original spirit of the works.
+__Professor Reza Farid__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts, espcially Sufi terminology and poetic citations and allusions to Attar, Hafez and Rumi, will be crucial in maintaining the original spirit of the works. Prof. Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitab-i-Iqan.
 
-__Dr. Ahmed Bakri__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Qur'anic studies and Sufi terminology. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team.
+__Dr. Ahmed Bakri__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Arabic and specifically Qur'anic grammar. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Mediations by Baha'u'llah" (Munajat)
 
-__Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical references in the works of the Báb, enhancing the depth and accuracy of the translations.
+__Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical allusions in the works of the Báb, and Baha'u'llah enhancing the depth and accuracy of translations.
 
-__Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences.
+__Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences. Ms. Clark has literary proficiency in both Arabic and Farsi and has authored academic papers on the translation choices employed by Shoghi Effendi.
 
 **Together, these five expert AI agents create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
 
@@ -33,7 +33,7 @@ Each member of the committee independently translates a given paragraph from the
 </details>
 
 <details open>
-<summary><strong>2. Group Discussion:</strong></summary>
+<summary><strong>2. Group Debate & Consideration:</strong></summary>
 
 The committee convenes to discuss each proposed translation. They critique and compare each version considering various factors:
 
@@ -46,7 +46,7 @@ The committee convenes to discuss each proposed translation. They critique and c
 </details>
 
 <details open>
-<summary><strong>3. Re-Translation:</strong></summary>
+<summary><strong>3. Individual Re-Work:</strong></summary>
 
 Based on the group discussion, each member re-translates the paragraph, taking into account the feedback and insights gained during the discussion.
 </details>
