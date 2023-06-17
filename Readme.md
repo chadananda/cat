@@ -22,7 +22,7 @@ __Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar I
 
 __Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences.
 
-**Together, these five experts create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
+**Together, these five expert AI agents create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
 
 ## 📚 Our Committee's Translation Process
 
