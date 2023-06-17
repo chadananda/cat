@@ -1,3 +1,4 @@
+
 # CTAI - Commitee Translation AI
 
 CTAI is a powerful AI for translating and processing book-length documents into quality classical English. It leverages the power of large language models with __decision tree logic__ to provide high-quality translations and document segmentation. Instead of older decision logic such as chain-of-reasoning, CTAI actually forms a committe of diverse translation agents and each translator argues his (or her) logical reasoning for a translation decision. The group continues to debate until they eventually reach a concensus. At which point, they provide the final translation as well as a commentary block summarizing the reasoning behind difficult translation decisions.
@@ -5,6 +6,7 @@ CTAI is a powerful AI for translating and processing book-length documents into 
 The CTAI "committee" can provide translations with or without commentary, with or without original text (side-by-side) and as either a literary or technical translation style.
 
 Since many old Arabic and Farsi manuscripts had neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into symantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
+
 
 ## Meet our Committee
 
@@ -19,7 +21,8 @@ __Dr. Yasmin Nouri__ - A renowned historian specializing in 19th-century Qajar I
 __Ms. Evelyn Clarke__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will ensure the translated works resonate with English-speaking audiences.
 
 
-Together, these five experts create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.
+**Together, these five experts create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.**
+
 
 
 ## Our Committee's Translation Process
@@ -56,7 +59,8 @@ The committee works together to produce a final translation of the paragraph. Th
 Finally, the committee writes up a brief technical summary detailing the challenges faced during the translation process and how they were overcome. This document serves as a record of their translation process and can be used to inform future translation efforts.
 
 
-This multi-step process ensures that the final translation is the result of a collaborative, thorough, and rigorous process, leveraging the diverse skills and expertise of the committee members. It also allows for continuous learning and improvement, as each step provides opportunities for feedback and refinement.
+**This multi-step process ensures that the final translation is the result of a collaborative, thorough, and rigorous process, leveraging the diverse skills and expertise of the committee members. It also allows for continuous learning and improvement, as each step provides opportunities for feedback and refinement.**
+
 
 
 
