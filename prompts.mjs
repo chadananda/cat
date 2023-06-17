@@ -32,7 +32,7 @@ export const PROMPTS = {
 
       START OF CONTEXT TEXT
 
-      {{context}}
+      {{2}}
 
       END OF CONTEXT TEXT
 
@@ -40,21 +40,22 @@ export const PROMPTS = {
 
       START OF SEGMENTATION TEXT
 
-      {{data}}
+      {{1}}
 
       END OF SEGMENTATION TEXT
     `,
     // Parameters for this prompt:
     params: { document: '', context: '' },
-    model: 'gpt-3.5-turbo-16k',
+    //model: 'gpt-3.5-turbo-16k',
+    model: 'gpt-3.5-turbo-0613',
     // Expected return type: array of strings (each string is a separate paragraph)
     response_signature: {
       "name": "get_data",
-      "description": "Add an array of paragraphs, each with original and corrected fields",
+      "description": "Returns an array of objects, each with original and corrected fields",
       "parameters": {
         "type": "object",
         "properties": {
-          "paragraphs": {
+          "data": {
             "type": "array",
             "items": {
               "type": "object",
@@ -72,9 +73,11 @@ export const PROMPTS = {
             }
           }
         },
-        "required": ["paragraphs"]
+        "required": ["data"]
       }
     },
+
+
     expectedFormat: 'array',
     validator: function(response) {
      return Array.isArray(response) && response.every(item => {

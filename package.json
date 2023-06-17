@@ -6,6 +6,9 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
+  "bin":{
+    "ctai": "./index.mjs"
+  },
   "keywords": [],
   "author": "Chad Jones <chadananda@gmail.com> (http://oceanlibrary.com)",
   "license": "ISC",
@@ -21,7 +24,7 @@
     "markdown-pdf": "^11.0.0",
     "marked": "^5.1.0",
     "officegen": "^0.6.5",
-    "openai": "^3.2.1",
+    "openai": "^3.3.0",
     "pdf-lib": "^1.17.1"
   },
   "devDependencies": {
