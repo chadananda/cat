@@ -9,9 +9,9 @@ __Tree of thought__ is basically a multi-input iteration on a goal. In this impl
 Since many old Arabic and Farsi documents have neither punctuation nor paragraph segmentation. CTAI will first split long blocks of text into semantically meaningful paragraphs prior to translation. As part of this document-prep, CTAI will also remove incorrect (artificial) page breaks introduced by typists or OCR.
 
 
-## 🎓 Meet our Committee
+## 🎓 Meet our AI Committee
 
-All of our translators are capable translators of both classical Arabic and Farsi -- and have extensive experience translating Arabic and Farsi literature in the translation style of Shoghi Effendi.
+**All of our committee members are capable translators of both classical Arabic and Farsi -- and have extensive experience translating Arabic and Farsi literature in the translation style of Shoghi Effendi.**
 
 __<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings to the committee a sweeping knowledge of classical English vocabulary and expression. Her doctoral dissertation treated the challenges of translating Ali ibn Abi Talib's "Nahj al-Balagha" into appropriate literary English.
 
