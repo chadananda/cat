@@ -67,7 +67,7 @@ Finally, the committee marks up the paragraph with copious footnotes documenting
 For more information on the available commands and options, run `ctai --help`.
 
 
-## 📃 Proof of concept examples
+## 📃 Proof of concept examples (coming soon)
 
 * Literary translation of Bahá'u'lláh's "Qasídiy-i-Varqá'íyyih"
 * Literary translation of the Báb's "Dalá'il-i-Sab'ih"
@@ -76,4 +76,25 @@ For more information on the available commands and options, run `ctai --help`.
 * Study side-by-side translation of Bahá'u'lláh's Kitáb-i-Aqdas
 * Study side-by-side translation of the Báb's Arabic Bayán
 * Study side-by-side translation of the Báb's "Qayyúmu'l-Asmá'" output in German
+
+### Sample translation with notes from the Báb's Commentary on the Surih of Kawthár:
+
+#### __In the name of God, the Compassionate, the Merciful[^1].__
+
+Praise be to God, who has ordained the arrangement of the Tablets of the Book of the Dawn in all that has been opened, differentiated, and spoken[^2]. This is the eternal pattern that appeared and illuminated, once it had willed and designated[^3], then decreed and decided before it had permitted and postponed[^4], then ruled, and then became apparent and manifested in the horizons of the sky of blindness in the totality of divinity[^5], so that the truths of the Covenant people might taste it on the Covenant's day[^6].
+
+[^1]: (بسم اللّه الرحمن الرحيم) - We have translated this as "In the name of God, the Compassionate, the Merciful," following the tradition established by Shoghi Effendi and similar to the translation commonly used in the King James Bible. It attempts to convey the rich nuances of the Arabic terms 'الرحمن' (ar-Rahman, meaning 'the Most Gracious') and 'الرحيم' (ar-Raheem, meaning 'the Most Merciful').
+
+[^2]: (الذي جعل طراز ألواح كتاب الفلق في كل ما فتق واستفرق واستنطق) - We have chosen to render this phrase as "who has ordained the arrangement of the Tablets of the Book of the Dawn in all that has been opened, differentiated, and spoken". This highlights the divinely instituted structuring of spiritual knowledge and wisdom, which has unfolded through the course of human history.
+
+[^3]: (الأزل الذي لاحت وأضائت بعدما شيئت وعينت) - "This is the eternal pattern that appeared and illuminated, once it had willed and designated" is a symbolic representation of the divine order and plan, which is manifest in creation according to the will and direction of the Divine.
+
+[^4]: (ثم قدرت وقضت قبل ما أذنت وأجلت وأحكمت) - Translated as "then decreed and decided before it had permitted and postponed" to reflect the belief that divine will precedes and directs all human events and actions.
+
+[^5]: (بها آفاق سماء العماء في أجمة اللاهوت) - Rendered as "became apparent and manifested in the horizons of the sky of blindness in the totality of divinity". This metaphorical expression encapsulates the idea that divine truths manifest themselves in creation, even when humans are blinded by their ignorance or lack of spiritual insight.
+
+[^6]: (ليتذوت بها حقايق أهل الميثاق في يوم الوثاق) - Translated as "so that the truths of the Covenant people might taste it on the Covenant's day". This line symbolizes the spiritual feast that awaits the faithful on the Day of Covenant, a Bahá'
+
+
+
 
