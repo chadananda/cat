@@ -6,18 +6,18 @@ This is a proof of concept placeholder, preparing for later generations of AI wh
 
 __Tree of thought__ is basically a multi-input iteration on a goal. In this implementation, it is a simulation of a multi-disciplinary translation committee consisting of a handful of varied experts. Each expert has a specific set of background strengths. In our simulated committee, each expert argues his (or her) logical reasoning behind each translation decision. The group engages each other in an interative cycle of translation and debate until they eventually reach a consensus. They provide this final translation together with copious technical notes explaining the challenges and reasoning behind each difficult translation decision.
 
-Since many old Arabic and Farsi documents have neither punctuation nor paragraph segmentation. The CTAI application will first split long blocks of text into semantically meaningful paragraphs prior to translation. As part of this document-prep, CTAI will also remove incorrect (artificial) page breaks introduced by typists or OCR.
+Since many old Arabic and Farsi documents have neither punctuation nor paragraph segmentation. CTAI will first split long blocks of text into semantically meaningful paragraphs prior to translation. As part of this document-prep, CTAI will also remove incorrect (artificial) page breaks introduced by typists or OCR.
 
 
 ## 🎓 Meet our Committee
 
-All of our translators are fluent in both classical Arabic and Farsi and have extensive experience translating Arabic and Farsi literature in the style of Shoghi Effendi.
+All of our translators are capable translators of both classical Arabic and Farsi -- and have extensive experience translating Arabic and Farsi literature in the translation style of Shoghi Effendi.
 
-__<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation treated the challenges of translating Ali ibn Abi Talib's "Nahj al-Balagha" into appropriate literary English.
+__<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings to the committee a sweeping knowledge of classical English vocabulary and expression. Her doctoral dissertation treated the challenges of translating Ali ibn Abi Talib's "Nahj al-Balagha" into appropriate literary English.
 
-__<u>👨‍🏫 Professor Reza Farid</u>__ - A leading authority in Persian classical poetry and Islamic literature. Professor Farid offers an unparalleled understanding of the cultural and historical contexts of Persian texts -- especially Sufi terminology and poetic allusions to Attar, Hafez, and Rumi. His insights will be crucial for maintaining the original spirit of the works. Professor Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitáb-i-Íqán.
+__<u>👨‍🏫 Professor Reza Farid</u>__ - A leading authority in Persian classical poetry and Islamic literature. Professor Farid offers an unparalleled understanding of the cultural and historical contexts of Persian texts -- especially Sufi terminology and literary allusions to classic poets such as Attar, Hafez, and Rumi. His insights will be crucial for maintaining the layered meaning of literary works. Professor Farid has written at length on the specific methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitáb-i-Íqán.
 
-__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A preeminent scholar in Arabic and Islamic literature, with a specific expertise on Qur'anic grammar. His research on Shoghi Effendi's Arabic translations make him a key member of the team. He has specially focused on the technical translation norms employed by Shoghi Effendi in his English rendering of the Arabic "Prayers and Meditations by Bahá'u'lláh" (Munaját).
+__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A preeminent scholar in the field of Arabic and Islamic literature, with a specific expertise on Qur'anic grammar and the development of Shi'ah Jurisprudence. His detailed studies of Shoghi Effendi's Arabic translations makes him a key member of the team. He has specially written on the technical translation norms employed by Shoghi Effendi in his English rendering of the Arabic "Prayers and Meditations by Bahá'u'lláh" (Munaját).
 
 *🤝 Together, these expert AI personas constitute a robust and multidisciplinary committee capable of accurately translating Bahá'í literature using the highly literary style of Shoghi Effendi.*
 
