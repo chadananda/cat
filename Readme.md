@@ -79,21 +79,17 @@ For more information on the available commands and options, run `ctai --help`.
 
 ### Sample translation with notes from the Báb's Commentary on the Surih of Kawthár:
 
-#### __In the name of God, the Compassionate, the Merciful[^1].__
-
-Praise be to God, who has ordained the arrangement of the Tablets of the Book of the Dawn in all that has been opened, differentiated, and spoken[^2]. This is the eternal pattern that appeared and illuminated, once it had willed and designated[^3], then decreed and decided before it had permitted and postponed[^4], then ruled, and then became apparent and manifested in the horizons of the sky of blindness in the totality of divinity[^5], so that the truths of the Covenant people might taste it on the Covenant's day[^6].
-
-[^1]: (بسم اللّه الرحمن الرحيم) - We have translated this as "In the name of God, the Compassionate, the Merciful," following the tradition established by Shoghi Effendi and similar to the translation commonly used in the King James Bible. It attempts to convey the rich nuances of the Arabic terms 'الرحمن' (ar-Rahman, meaning 'the Most Gracious') and 'الرحيم' (ar-Raheem, meaning 'the Most Merciful').
-
-[^2]: (الذي جعل طراز ألواح كتاب الفلق في كل ما فتق واستفرق واستنطق) - We have chosen to render this phrase as "who has ordained the arrangement of the Tablets of the Book of the Dawn in all that has been opened, differentiated, and spoken". This highlights the divinely instituted structuring of spiritual knowledge and wisdom, which has unfolded through the course of human history.
-
-[^3]: (الأزل الذي لاحت وأضائت بعدما شيئت وعينت) - "This is the eternal pattern that appeared and illuminated, once it had willed and designated" is a symbolic representation of the divine order and plan, which is manifest in creation according to the will and direction of the Divine.
-
-[^4]: (ثم قدرت وقضت قبل ما أذنت وأجلت وأحكمت) - Translated as "then decreed and decided before it had permitted and postponed" to reflect the belief that divine will precedes and directs all human events and actions.
-
-[^5]: (بها آفاق سماء العماء في أجمة اللاهوت) - Rendered as "became apparent and manifested in the horizons of the sky of blindness in the totality of divinity". This metaphorical expression encapsulates the idea that divine truths manifest themselves in creation, even when humans are blinded by their ignorance or lack of spiritual insight.
-
-[^6]: (ليتذوت بها حقايق أهل الميثاق في يوم الوثاق) - Translated as "so that the truths of the Covenant people might taste it on the Covenant's day". This line symbolizes the spiritual feast that awaits the faithful on the Day of Covenant, a Bahá'
+| Original Phrase | Translation | Notes |
+| --- | --- | --- |
+| بسم اللّه الرحمن الرحيم | In the Name of God, the Merciful, the Compassionate | (الرحمن الرحيم) - Translated as "the Merciful, the Compassionate," following Shoghi Effendi and the King James Bible. Conveying nuances of the Arabic terms 'الرحمن' (ar-Rahman, 'the Most Gracious') and 'الرحيم' (ar-Raheem, 'the Most Merciful'). |
+| الحمد للّه الذي جعل طراز | All praise be to God, who hath fashioned | (الحمد للّه) - Translated as "All praise be to God," following Shoghi Effendi's translation style in Baha'u'llah's writings. Conveys a reverence and thankfulness towards God. (جعل طراز) - "fashioned" captures the spirit of 'creation' in this context. |
+| كتاب الفلق | the Book of the Dawn | Following Shoghi Effendi's tradition of translating Islamic religious concepts using biblical language, 'كتاب الفلق' (Book of the Dawn) is translated as such, maintaining its spiritual resonance and mystic appeal. |
+| الأزل الذي لاحت وأضائت | the Eternal One who hath appeared and shone forth | 'الأزل' (the Eternal One) is translated as such to maintain its theological implication. 'لاحت وأضائت' (appeared and shone forth) evokes the imagery of divine revelation and enlightenment. |
+| قبل ما أذنت وأجلت وأحكمت | prior to Thy command, time setting, and ordination | The sequence of verbs 'أذنت وأجلت وأحكمت' is translated as 'command, time setting, and ordination' conveying the concept of divine authority, predetermination and the orderly unfolding of divine plan. |
+| آفاق سماء العماء | the horizons of the heaven of blindness | This evokes mystical symbology. 'آفاق سماء' (the horizons of the heaven) is maintained in its literal form, while 'العماء' (blindness) is used metaphorically to signify spiritual blindness. |
+| الذي التفت الساق بالساق | the Day when the shank shall be bared | A reference to Qur'an 75:29, translated in line with Shoghi Effendi's style, maintaining the metaphorical expression. It signifies a day of judgement or calamity. |
+| بين كل شيء نور شمس الأزل | between all things, the light of the Sun of the Eternity | Following the metaphorical and symbolic language, 'شمس الأزل' (Sun of the Eternity) is a symbol for the divine source of spiritual illumination. |
+| أهل الشقاق في يوم الفراق | the people of division in the Day of Departure | 'أهل الشقاق' (the people of division) indicates those who cause strife or division. 'يوم الفراق' (Day of Departure) metaphorically signifies a day of judgement or reck.
 
 
 
