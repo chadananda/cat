@@ -38,7 +38,7 @@ The committee convenes to discuss each proposed translation. They critique and c
 - 🗨️ Figurative Language Adaptation: Does the translation adeptly identify and adapt figures of speech from the original text into fitting English expressions, maintaining the essence and style of the original?
 
 ### ✍️ 3. Repeat until Achieving Consensus:
-Based on the group discussion, each member re-translates the paragraph, repeating step one and two, bearing in mind corrections and insights learned from other committee members. They will continue this iterative process until arriving at consensus -- producing a final translation which all members agree is the most faithful rendering of the original in both accuracy and style.
+Based on the group discussion, each member re-translates the paragraph, repeating step one and two, bearing in mind corrections and insights learned from other committee members. They will continue this iterative process until convergings at a consensus -- producing a final translation which all members agree is the most faithful rendering of the original in both accuracy and style.
 
 ### 📝 4. Technical Summary:
 Finally, the committee marks up the paragraph with copious footnotes documenting the difficult trade-offs made in the translation work, including choices of specific terminology and figures of speech and the reasoning for each. Footnotes are meant for use by translators and will include original terms and phrases with exlanations.
