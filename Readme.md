@@ -10,32 +10,33 @@ Since many old Arabic and Farsi documents have neither punctuation nor paragraph
 
 ## 🎓 Meet our Committee
 
-__<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation treated translation challenges of Ali ibn Abi Talib's "Nahj al-Balagha" into parallel literary English.
+__<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation treated the challenges of translating Ali ibn Abi Talib's "Nahj al-Balagha" into appropriate literary English.
 
-__<u>👨‍🏫 Professor Reza Farid</u>__ - A leading authority in Persian classical poetry and Islamic literature in Arabic. Prof. Farid's understanding of the cultural and historical contexts of Persian and Arabic texts, especially Sufi terminology and poetic allusions to Attar, Hafez, and Rumi, will be crucial in maintaining the original spirit of the works. Prof. Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitáb-i-Íqán.
+__<u>👨‍🏫 Professor Reza Farid</u>__ - A leading authority in Persian classical poetry and Islamic literature. Professor Farid offers an unparalleled understanding of the cultural and historical contexts of Persian texts -- especially Sufi terminology and poetic allusions to Attar, Hafez, and Rumi. His insights will be crucial for maintaining the original spirit of the works. Professor Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitáb-i-Íqán.
 
-__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A respected scholar in Arabic and Islamic literature, with a specific focus on Arabic and specifically Qur'anic grammar. His research and translation work on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Meditations by Baha'u'llah" (Munajat).
+__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A preeminant scholar in Arabic and Islamic literature, with a specific focus on Qur'anic grammar. His research on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Meditations by Bahá'u'lláh" (Munaját). He has been deeply involved in the identification of transcription errors in the Bab's writings in preparation for publication.
 
-__<u>👩‍🏫 Dr. Yasmin Nouri</u>__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical allusions in the works of the Báb, and Baha'u'llah enhancing the depth and accuracy of translations.
+__<u>👩‍🏫 Dr. Yasmin Nouri</u>__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical allusions in the works of the Báb, and Bahá'u'lláh enhancing the depth and accuracy of translations.
 
 __<u>👩‍💼 Ms. Evelyn Clarke</u>__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences. Ms. Clark has literary proficiency in both Arabic and Farsi and has authored academic papers on the translation choices employed by Shoghi Effendi.
 
-*🤝 Together, these five expert AI agents create a robust and multidisciplinary committee capable of translating Baha'i literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant and historically contextualized.*
+*🤝 Together, these five expert AI personas create a robust and multidisciplinary committee capable of translating Bahá'í literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant.*
 
 
 ## 📚 Our Committee's Translation Process
 
 ### 💡 1. Initial Translation:
-Each member of the committee independently translates a given paragraph from the original Arabic or Persian text. They are encouraged to leverage their individual areas of expertise while keeping in mind the style of Shoghi Effendi.
+Each member of the committee independently translates a given paragraph from the original Arabic or Persian text. They are encouraged to leverage their individual areas of expertise while keeping in mind the norms established by Shoghi Effendi.
 
 ### 🗣️ 2. Group Debate & Consideration:
 The committee convenes to discuss each proposed translation. They critique and compare each version considering various factors:
+
 - 🖋️ Style: How well does the translation capture the literary style of Shoghi Effendi?
 - 🕰️ Historical context: Does the translation accurately reflect the historical and cultural nuances of the original text?
-- 📚 Literary Allusions: Are references to other works of literature correctly interpreted and translated?
-- ☪️ Theological Terminology: Is the terminology accurate and consistent with Baha'i theology and Shoghi Effendi's translations?
-- 📜 Translation Precedent: Does the translation adhere to established translation standards and precedents set by Shoghi Effendi?
-- 🗨️ Parallel English Metaphors and Figures of Speech: Does the translation effectively use English language metaphors and figures of speech to convey the meaning of the original text?
+- 📚 Literary Allusions: Are references to other works of literature correctly interpreted?
+- ☪️ Theological Terminology: Do technical terms accurately reflect Islamic and Baha'i concepts?
+- 📜 Translation Precedent: Does the translation adhere to established translation standards and terminology precedents set by Shoghi Effendi?
+- 🗨️ Figurative Language Adaptation: Does the translation adeptly identify and adapt figures of speech from the original text into fitting English expressions, maintaining the essence and style of the original?
 
 ### ✍️ 3. Individual Re-Work:
 Based on the group discussion, each member re-translates the paragraph, taking into account the feedback and insights gained during the discussion.
