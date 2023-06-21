@@ -1,31 +1,30 @@
 # 📘 CTAI - Committee Translation AI 📘
 
-CTAI is a powerful AI "committee" for translating and processing book-length documents into quality classical English. It leverages the power of __decision tree logic__ 🌳 to provide high-quality translations far superior to older AI decision-enhancing logic such as __chain-of-reasoning.__
+CTAI is a powerful AI "committee" for translating and processing book-length documents into quality classical English. It leverages the concept of __tree of thought logic__ 🌳 to provide translations which are superior to __straight-shot__ requests and even better than other AI decision-enhancing logic such as __chain-of-reasoning__, __self-consistency__ or __voting.__
 
-CTAI's decision tree is a simulation of a multi-disciplinary committee consisting of five specific translation experts. Each having a completely different set of background strengths. In our simulated committee, each expert argues his (or her) logical reasoning behind each translation decision. The group engages each other in debate until they eventually reach a collective translation consensus. Together, they provide this final translation along with with a technical summary explaining the challenges and reasoning behind each difficult translation decision.
+This is a proof of concept placeholder, preparing for later generations of AI which will have been trained on more domain-specific examples. GPT-4 is the first LLM to have adequate knowledge of Arabic literature to run such a test. To play with this tool, you will have to have API access to GPT-4 which is not yet publicly available.
 
-This virtual AI "committee" application can, in this way, provide translations with or without commentary, with or without original text (side-by-side) and as either a literary or technical translation style.
+__Tree of thought__ is basically a multi-input iteration on a goal. In this implementation, it is a simulation of a multi-disciplinary translation committee consisting of a handful of varied experts. Each expert has a specific set of background strengths. In our simulated committee, each expert argues his (or her) logical reasoning behind each translation decision. The group engages each other in debate until they eventually reach a collective translation consensus. Together, they provide this final translation along with a technical summary explaining the challenges and reasoning behind each difficult translation decision.
 
-Since many old Arabic and Farsi documents have neither punctuation nor paragraph segmentation. The CTAI application can first split long blocks of text into semantically meaningful paragraphs prior to translation. CTAI will also remove incorrect (artificial) page breaks from OCR, as well as repair hyphen-split words and common OCR errors using contextual analysis.
+Since many old Arabic and Farsi documents have neither punctuation nor paragraph segmentation. The CTAI application will first split long blocks of text into semantically meaningful paragraphs prior to translation. As part of this document-prep, CTAI will also remove incorrect (artificial) page breaks introduced by typists or OCR.
+
 
 ## 🎓 Meet our Committee
+
+All of our translators are fluent in both classical Arabic and Farsi and have extensive experience translating Arabic and Farsi literature in the style of Shoghi Effendi.
 
 __<u>👩‍🎓 Dr. Penelope Hamilton</u>__ - An Oxford-based scholar in English literature and linguistics with a focus on Keats, Byron, Gibbon, and the King James Bible. She brings a deep understanding of classical English style to the committee. Her doctoral dissertation treated the challenges of translating Ali ibn Abi Talib's "Nahj al-Balagha" into appropriate literary English.
 
 __<u>👨‍🏫 Professor Reza Farid</u>__ - A leading authority in Persian classical poetry and Islamic literature. Professor Farid offers an unparalleled understanding of the cultural and historical contexts of Persian texts -- especially Sufi terminology and poetic allusions to Attar, Hafez, and Rumi. His insights will be crucial for maintaining the original spirit of the works. Professor Farid has especially studied the methodology employed by Shoghi Effendi in his standard-setting translation of the Farsi Kitáb-i-Íqán.
 
-__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A preeminant scholar in Arabic and Islamic literature, with a specific focus on Qur'anic grammar. His research on Shoghi Effendi's Arabic translations make him a key member of the team. Dr. Bakri has especially focused on the technical translation norms employed by Shoghi Effendi in his translation of the Arabic prayers in "Prayers and Meditations by Bahá'u'lláh" (Munaját). He has been deeply involved in the identification of transcription errors in the Bab's writings in preparation for publication.
+__<u>👨‍🎓 Dr. Ahmed Bakri</u>__ - A preeminent scholar in Arabic and Islamic literature, with a specific expertise on Qur'anic grammar. His research on Shoghi Effendi's Arabic translations make him a key member of the team. He has specially focused on the technical translation norms employed by Shoghi Effendi in his English rendering of the Arabic "Prayers and Meditations by Bahá'u'lláh" (Munaját).
 
-__<u>👩‍🏫 Dr. Yasmin Nouri</u>__ - A renowned historian specializing in 19th-century Qajar Iran. Dr. Nouri's expertise will provide valuable context to the many historical allusions in the works of the Báb, and Bahá'u'lláh enhancing the depth and accuracy of translations.
-
-__<u>👩‍💼 Ms. Evelyn Clarke</u>__ - A meticulous editor and English language specialist with a focus on refining translated texts for clarity, comprehensibility, and stylistic consistency. Her skills will help ensure the translated works resonate with English-speaking audiences. Ms. Clark has literary proficiency in both Arabic and Farsi and has authored academic papers on the translation choices employed by Shoghi Effendi.
-
-*🤝 Together, these five expert AI personas create a robust and multidisciplinary committee capable of translating Bahá'í literature in the style of Shoghi Effendi. Their combined skills and knowledge ensure the translations will be not only linguistically accurate but also culturally resonant.*
+*🤝 Together, these expert AI personas constitute a robust and multidisciplinary committee capable of accurately translating Bahá'í literature using the highly literary style of Shoghi Effendi.*
 
 
 ## 📚 Our Committee's Translation Process
 
-### 💡 1. Initial Translation:
+### 💡 1. Translation:
 Each member of the committee independently translates a given paragraph from the original Arabic or Persian text. They are encouraged to leverage their individual areas of expertise while keeping in mind the norms established by Shoghi Effendi.
 
 ### 🗣️ 2. Group Debate & Consideration:
@@ -38,17 +37,11 @@ The committee convenes to discuss each proposed translation. They critique and c
 - 📜 Translation Precedent: Does the translation adhere to established translation standards and terminology precedents set by Shoghi Effendi?
 - 🗨️ Figurative Language Adaptation: Does the translation adeptly identify and adapt figures of speech from the original text into fitting English expressions, maintaining the essence and style of the original?
 
-### ✍️ 3. Individual Re-Work:
-Based on the group discussion, each member re-translates the paragraph, taking into account the feedback and insights gained during the discussion.
+### ✍️ 3. Repeat until Achieving Consensus:
+Based on the group discussion, each member re-translates the paragraph, repeating step one and two, bearing in mind corrections and insights learned from other committee members. They continue this iterative process until arriving at consensus with a final translation all agree upon.
 
-### 🔍 4. Cross Comparison:
-The committee meets again to cross compare their re-translations. They discuss the strengths and weaknesses of each version, drawing on the best elements of each to inform their final translation.
-
-### 🤝 5. Collaborative Final Translation:
-The committee works together to produce a final translation of the paragraph. This final version incorporates the best efforts and arguments of the group, ensuring that it is an accurate, stylistically appropriate, and resonant translation of the original text.
-
-### 📝 6. Technical Summary:
-Finally, the committee writes up a brief technical summary detailing the challenges faced during the translation process and how they were overcome. This document serves as a record of their translation process and can be used to inform future translation efforts.
+### 📝 4. Technical Summary:
+Finally, the committee marks up the paragraph with copious footnotes documenting the difficult trade-offs which the committee made in the translation of the paragraph, including choices made for specific terminology or figures of speech and the reasoning for each.
 
 *This multi-step process ensures that the final translation is the result of a collaborative, thorough, and rigorous process, leveraging the diverse skills and expertise of the committee members. It also allows for continuous learning and improvement, as each step provides opportunities for feedback and refinement.*
 
@@ -66,7 +59,7 @@ Finally, the committee writes up a brief technical summary detailing the challen
 ## 🚀 Usage
 
 1. Install CTAI with `npm install -g ctai`.
-2. Set your API key with `ctai set-key YOUR_API_KEY`.
+2. Set your GPT-4 API key with `ctai set-key YOUR_API_KEY`.
 3. Translate a file with `ctai translate --file yourfile.txt --style literary`.
 4. Create a side-by-side translation with `CTAI side-by-side --file yourfile.txt --style literary`.
 5. Segment a document into meaningful paragraphs with `ctai segment --file yourfile.txt`.
